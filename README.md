@@ -171,7 +171,7 @@ cmake --build build --config Release
 ```
 
 ## Core ML support
-
+## By Mudassir Alam
 On Apple Silicon devices, the Encoder inference can be executed on the Apple Neural Engine (ANE) via Core ML. This can result in significant
 speed-up - more than x3 faster compared with CPU-only execution. Here are the instructions for generating a Core ML model and using it with `whisper.cpp`:
 
